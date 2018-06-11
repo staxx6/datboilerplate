@@ -1,0 +1,17 @@
+.home {
+    background-color: orange;
+    
+    margin: auto;
+    height: calc(100vh - 6rem);
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: 1fr max-content 20vh;
+    justify-content: center;
+
+    &__s-container {
+        background-image: url(../img/s.svg);
+        grid-row: 2 / span 1;
+        max-width: 70rem;
+        height: 100%;
+    }
+}
